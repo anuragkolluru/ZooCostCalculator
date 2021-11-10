@@ -15,10 +15,10 @@
 ### Govinda reddy Pandiri(Contributor)
 #### Govinda reddy Pandiri's Repository link : https://github.com/Govind2003/ZooCostCalculator
 #### Published at :
-### Akhil kumar reddy Mulamalla(Contributor)
-#### Akhil kumar reddy Mulamalla's Repository link : https://github.com/akhilreddy097/ZooCostCalculator
+### Akhil Kumar reddy Mulamalla(Contributor)
+#### Akhil Kumar reddy Mulamalla's Repository link : https://github.com/akhilreddy097/ZooCostCalculator
 #### Published at :
-### Naveen kumar Kanaparthi(Contributor)
-#### Naveen kumar Kanaparthi's Repository link:https://github.com/NaveenKanaparthi/ZooCostCalculator 
+### Naveen Kumar Kanaparthi(Contributor)
+#### Naveen Kumar Kanaparthi's Repository link:https://github.com/NaveenKanaparthi/ZooCostCalculator 
 #### Published at :
 
