@@ -13,7 +13,7 @@
 #### Sujith reddy Naidu's Repository link : https://github.com/sujith1233/ZooCostCalculator
 #### Published at :
 ### Govinda reddy Pandiri(Contributor)
-#### Govinda reddy Pandiri's Repository link :
+#### Govinda reddy Pandiri's Repository link : https://github.com/Govind2003/ZooCostCalculator
 #### Published at :
 ### Akhil kumar reddy Mulamalla(Contributor)
 #### Akhil kumar reddy Mulamalla's Repository link : https://github.com/akhilreddy097/ZooCostCalculator
