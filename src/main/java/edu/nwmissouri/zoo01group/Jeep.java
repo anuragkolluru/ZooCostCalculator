@@ -12,8 +12,12 @@ public class Jeep extends FourWheeler {
     private String engineTypeandRequiredFuel ;
     private double Displacement;
     private String fuelSystem;
+    
     public Jeep() {
-    }/**
+        super(60,120);
+    }
+    
+    /**
      * 
      * @return engineTypeandRequiredFuel // 
      */
