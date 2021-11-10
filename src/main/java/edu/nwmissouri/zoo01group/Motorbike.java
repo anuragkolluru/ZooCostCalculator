@@ -8,7 +8,7 @@ package edu.nwmissouri.zoo01group;
  * This class gives the information about Motor bike fare and calculates the cost of the trip
  * @author Sujith Reddy Naidu
  */
-public class Motorbike extends Animal{
+public class Motorbike extends Vehicle{
        
     private double maxSpeed;
     private VehicleCategories vehicleType;
@@ -19,7 +19,6 @@ public class Motorbike extends Animal{
      * @param name
      */
     public Motorbike(String name) {
-        super(name);
     }
 
     /**
@@ -70,52 +69,5 @@ public class Motorbike extends Animal{
         this.pricePerHour_dollars = pricePerHour_dollars;
     }
 
-    /**
-     * This method returns the name
-     * @return name
-     */
-    public String getName() {
-        return name;
-    }
-
-    /**
-     * This method sets the name
-     * @param name
-     */
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    /**
-     * This method returns the gender of the Animal
-     * @return gender
-     */
-    public AnimalGender getGender() {
-        return gender;
-    }
-
-    /**
-     * This method sets the gender of the Animal
-     * @param gender
-     */
-    public void setGender(AnimalGender gender) {
-        this.gender = gender;
-    }
-    
-     /**
-     *
-     */
-    @Override
-    public void speak() {
-
-    }
-
-    /**
-     *
-     */
-    @Override
-    public void move() {
-    }
-    
 
 }
