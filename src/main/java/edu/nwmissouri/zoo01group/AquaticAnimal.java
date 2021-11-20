@@ -18,9 +18,12 @@ public class AquaticAnimal extends Animal {
     public boolean isDangerous;
     private double waterDepth_meters;
     private int watchTime;
+    private double y=9.8;
+    private int g;
 
     /**
      *
+     * @return 
      */
     @Override
     public String speak() {
@@ -30,6 +33,7 @@ public class AquaticAnimal extends Animal {
 
     /**
      *
+     * @return 
      */
     @Override
     public String move() {
@@ -67,7 +71,15 @@ public class AquaticAnimal extends Animal {
      * @return watchTime
      */
     public int getWatchTime() {
+        try{
         return watchTime;
+       
+        }
+        catch(Exception exc){
+        throw exc;
+        }
+        
+        
     }
 
     /**
@@ -87,5 +99,37 @@ public class AquaticAnimal extends Animal {
     public void setWatchTime(int watchTime) {
         this.watchTime = watchTime;
     }
+    public  void Casting()
+    {
+        g=(int) y;
+        System.out.println("casting double to int: "+g);
+       
+            }
+    public  void Exceptions()
+    {
+        try {
+      int[] n = {1, 2, 3,4};
+      System.out.println(n[10]);
+    }
+        catch (Exception E) 
+        {
+      System.out.println("The exception is about"+E);
+      
+    }
+    }
+    
+    public static void main(String[] args){
+    
+    AquaticAnimal a = new AquaticAnimal(12,true,11.3,3,"AquaticAnimal");
+        a.Casting();
+        a.Exceptions();
+    }
 
 }
+    /*public static void main(String[] args){
+        AquaticAnimal a = new AquaticAnimal(12,true,11.3,3,"AquaticAnimal");
+        a.Casting();
+        */
+            
+
+
